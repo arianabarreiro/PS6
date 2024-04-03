@@ -29,7 +29,7 @@ GSM523222_DP-Gata3
 GSM661225_DP-CD3hi-WT1
 GSM661229_DP-CD3lo-WT1
 Output from SICER is a .wig file is located in the folder “results_chipseq” → these were the files(.wig) used to obtain plots of the peaks with R code provided(only uploaded one for proof of concept→ need to identify better what chromosomes we want for final project)
-Usage
+## Usage
 Obtaining peaks from raw bed data(chipseq):
 To obtain the peaks from the publicly available dataset we used version 2 of Sicer. Given that none of the datasets had controls and the availability of Knockout conditions was inconsistent for different cell types we decided to perform the analysis using Scicer without control or knockout commands. Parameters were meticulously optimized to suit our experimental setup and match analysis standards in the field. we set the window size (w) to 200, determining the resolution of our analysis, and the gap size (g) to 400, defining the minimum length of gaps between significant windows for peak merging. These choices ensure robust identification of enriched regions while minimizing false positives. Additionally, parameters such as the redundancy threshold (rt) of 1 and the E-value threshold (e) of 1 were selected to uphold stringent criteria for significance, enhancing the reliability of our findings.
 
