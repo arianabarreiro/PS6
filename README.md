@@ -37,7 +37,7 @@ To obtain the peaks from the publicly available dataset we used version 2 of Sic
 sicer -t /Users/ariana/Desktop/Data_CHIPSEQ/DP/GSM661229_DP-CD3lo-WT1.bed -s mm8 -w 200 -rt 1 -f 150 -egf 0.74 -g 400 -e 1 -o /Users/ariana/Desktop/Data_CHIPSEQ/results
 The first file, labeled as "treatment_file-W200-G600.scoreisland," delineates significant islands controlled by an E-value threshold of 1, following the format "chrom start end score." This file provides a detailed summary of enriched regions, facilitating further investigation into their genomic characteristics and functional implications. The second output, named "treatment_file-W200-normalized.wig," is a .wig file that encapsulates normalized read counts per million, allowing for visualization and interpretation of the identified peaks. Specifically, this file was selected for uploading to the UCSC Genome Browser.
 
-Visualizing output of Scicer- peaks (.R file)
+Visualizing output of Sicer- peaks (.R file)
 Install the required packages “ggplot” and "rtracklayer”
 Run the code in R file.
 Can adapt code to select for a specific chromosome or even plot the whole genome
